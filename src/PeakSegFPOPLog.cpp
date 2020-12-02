@@ -4,6 +4,7 @@
 #include <fstream> //for ifstream etc.
 #include <exception>//for std::exception
 #include <stdexcept>//for std::invalid_argument
+#include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
 #include <stdint.h>

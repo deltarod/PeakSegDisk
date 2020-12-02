@@ -7,3 +7,5 @@
 /build/
 */__pycache__/
 /dist/
+/data/loss.tsv
+/data/segments.bed

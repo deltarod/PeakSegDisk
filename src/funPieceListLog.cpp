@@ -4,6 +4,7 @@
 #include <list>
 #include <math.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 #define NEWTON_EPSILON 1e-12
 #define NEWTON_STEPS 100

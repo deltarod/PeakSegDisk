@@ -1,6 +1,6 @@
 # pyPeakSegDisk
 
-A Python3 binding for PeakError, which can be found at [github.com/tdhock/PeakSegDisk](https://github.com/tdhock/PeakSegDisk)
+A Python3 binding for PeakSegDisk, which can be found at [github.com/tdhock/PeakSegDisk](https://github.com/tdhock/PeakSegDisk)
 
 ## Functionalities
 
