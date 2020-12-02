@@ -1,4 +1,5 @@
-/* -*- compile-command: "R CMD INSTALL .." -*- */
+#ifndef PEAKSEGFPOPLOG_H
+#define PEAKSEGFPOPLOG_H
 
 #define ERROR_PENALTY_NOT_FINITE 1
 #define ERROR_PENALTY_NEGATIVE 2
@@ -12,5 +13,7 @@
 #define ERROR_PENALTY_NOT_NUMERIC 10
 #define ERROR_WRITING_SEGMENTS_OUTPUT 11
 
-int PeakSegFPOP_disk(char *, char *, char *);
+int PeakSegFPOP_disk(char *, char *, char *, char *, char *);
+
+#endif
 

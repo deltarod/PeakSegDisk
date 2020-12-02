@@ -23,7 +23,6 @@ class PoissonLossPieceLog {
     (double li, double lo, double co, double m, double M, int i, double);
   double argmin();
   double argmin_mean();
-  void print();
   double get_smaller_root(double);
   double get_larger_root(double);
   bool has_two_roots(double);
@@ -42,15 +41,14 @@ class PiecewisePoissonLossLog {
   void set_to_min_less_of(PiecewisePoissonLossLog *, int);
   void set_to_min_more_of(PiecewisePoissonLossLog *, int);
   void set_to_min_env_of
-    (PiecewisePoissonLossLog *, PiecewisePoissonLossLog *, int);
+    (PiecewisePoissonLossLog *, PiecewisePoissonLossLog *);
   int check_min_of(PiecewisePoissonLossLog *, PiecewisePoissonLossLog *);
   void push_min_pieces
     (PiecewisePoissonLossLog *, PiecewisePoissonLossLog *,
-     PoissonLossPieceListLog::iterator, PoissonLossPieceListLog::iterator, int);
+     PoissonLossPieceListLog::iterator, PoissonLossPieceListLog::iterator);
   void push_piece(PoissonLossPieceListLog::iterator, double, double);
   void add(double Linear, double Log, double Constant);
   void multiply(double);
-  void print();
   void set_prev_seg_end(int prev_seg_end);
   void findMean(double mean, int *seg_end, double *prev_log_mean);
   double findCost(double mean);
