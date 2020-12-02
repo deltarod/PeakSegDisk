@@ -17,8 +17,7 @@ setuptools.setup(
         'test': ['pytest']
     },
     ext_modules=[setuptools.Extension('PeakSegDiskInterface',
-                                      ['src/interface.cpp', 'src/PeakSegFPOPLog.cpp', 'src/funPieceListLog.cpp'],
-                                      include_dirs=['src/'])],
+                                      ['src/interface.cpp', 'src/PeakSegFPOPLog.cpp', 'src/funPieceListLog.cpp'])],
     classifiers=[
         "Programming Language :: Python :: 3.8",
         "Programming Language :: C",
