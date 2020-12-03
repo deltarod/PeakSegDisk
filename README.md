@@ -22,5 +22,5 @@ This section will explain how to install pyPeakSegDisk
 ### From Sources
 
 1. `git clone https://github.com/deltarod/PeakSegDisk.git`
-2. `cd PeakError/`
+2. `cd PeakSegDisk/`
 3. `python3 -m pip install .`
