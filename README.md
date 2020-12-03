@@ -1,4 +1,6 @@
 # pyPeakSegDisk
+![](https://travis-ci.com/deltarod/PeakSegDisk.svg?branch=master)
+
 
 A Python3 binding for PeakSegDisk, which can be found at [github.com/tdhock/PeakSegDisk](https://github.com/tdhock/PeakSegDisk)
 
