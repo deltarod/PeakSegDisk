@@ -1,4 +1,3 @@
-#include "PeakSegFPOPLog.h"
 #include <Python.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -6,6 +5,7 @@
 #include <stdint.h>
 #include <inttypes.h>
 #include <string.h>
+#include "PeakSegFPOPLog.h"
 
 static PyObject * PeakSegDiskInterface(PyObject *self, PyObject *args)
 {
