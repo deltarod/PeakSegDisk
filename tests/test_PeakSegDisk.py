@@ -15,7 +15,7 @@ def test_PeakSegDisk():
     penalty = '100000'
     dbFile = tempfile.NamedTemporaryFile(suffix='.db')
 
-    correct = PeakSegDisk.FPOP_files(coveragePath, segmentsPath, lossPath, penalty, dbFile.name)
+    correct = PeakSegDisk.FPOP_files(coveragePath, segmentsPath, lossPath, penalty, dbFile)
 
     assert correct
 
