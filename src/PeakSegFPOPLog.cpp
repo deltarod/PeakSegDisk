@@ -10,6 +10,7 @@
 #include <stdint.h>
 #include <inttypes.h>
 #include <string.h>
+#include <cmath>
 
 #include "funPieceListLog.h"
 #include "PeakSegFPOPLog.h"
